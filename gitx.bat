@@ -4,8 +4,7 @@ git add .
 git status
 git commit -m %commit%
 git push origin master
-set /p input=
 echo ----------------------------------------
 echo Commit Feito com Sucesso, Nome: %commit% | Precione Enter para sair
 echo ----------------------------------------
-
+set /p input=
