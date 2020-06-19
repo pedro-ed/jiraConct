@@ -1,13 +1,22 @@
 const express = require('express')
 const routes = express.Router()
 // rotas
-const OngController = require("./controllers/ongsControllers")
+const jira = require("./controllers/jiraControllers")
 
+a_fazer:"",
+fazendo:"",
+pausa:"",
+impedimento:"",
+concluido:"",
+finalisada:""
 
+routes.post('/em_analise', jira.em_analise)
+routes.post('/a_fazer', jira.a_fazer)
+routes.post('/fazendo', jira.fazendo)
+routes.post('/pausa', jira.pausa)
+routes.post('/impedimento', jira.impedimento)
+routes.post('/concluido', jira.concluido)
+routes.post('/finalisada', jira.finalisada)
 
-// LISTAR TODAS AS ONGS
-routes.get('/teste', OngController.index)
-// CRIAR ONGS
-routes.post('/ongs',OngController.create)
 
 module.exports = routes
