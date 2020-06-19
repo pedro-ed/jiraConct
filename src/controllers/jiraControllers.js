@@ -14,7 +14,7 @@ module.exports = {
     var tarefa_pai = data.fields.issuelinks[0].outwardIssue.key
     var xhr = new XMLHttpRequest()
     var dados = {
-      issue= [
+      issue: [
         tarefa_pai,
       ]
     }
@@ -30,7 +30,7 @@ module.exports = {
     var tarefa_pai = data.fields.issuelinks[0].outwardIssue.key
     var xhr = new XMLHttpRequest()
     var dados = {
-      issue= [
+      issue: [
         tarefa_pai,
       ]
     }
@@ -46,7 +46,7 @@ module.exports = {
     var tarefa_pai = data.fields.issuelinks[0].outwardIssue.key
     var xhr = new XMLHttpRequest()
     var dados = {
-      issue= [
+      issue: [
         tarefa_pai,
       ]
     }
@@ -62,7 +62,7 @@ module.exports = {
     var tarefa_pai = data.fields.issuelinks[0].outwardIssue.key
     var xhr = new XMLHttpRequest()
     var dados = {
-      issue= [
+      issue: [
         tarefa_pai,
       ]
     }
@@ -78,7 +78,7 @@ module.exports = {
     var tarefa_pai = data.fields.issuelinks[0].outwardIssue.key
     var xhr = new XMLHttpRequest()
     var dados = {
-      issue= [
+      issue: [
         tarefa_pai,
       ]
     }
@@ -94,7 +94,7 @@ module.exports = {
     var tarefa_pai = data.fields.issuelinks[0].outwardIssue.key
     var xhr = new XMLHttpRequest()
     var dados = {
-      issue= [
+      issue: [
         tarefa_pai,
       ]
     }
@@ -110,7 +110,7 @@ module.exports = {
     var tarefa_pai = data.fields.issuelinks[0].outwardIssue.key
     var xhr = new XMLHttpRequest()
     var dados = {
-      issue= [
+      issue: [
         tarefa_pai,
       ]
     }
