@@ -6,7 +6,7 @@ const OngController = require("./controllers/ongsControllers")
 
 
 // LISTAR TODAS AS ONGS
-routes.get('/', OngController.index)
+routes.get('/teste', OngController.index)
 // CRIAR ONGS
 routes.post('/ongs',OngController.create)
 
