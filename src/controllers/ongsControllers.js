@@ -1,7 +1,9 @@
 
 module.exports = {
   async index(request, response) {
-    const ongs = await connection('ongs').select('*')
+    var ongs={
+      return:"nada"
+    }
     return response.json(ongs)
   },
 
